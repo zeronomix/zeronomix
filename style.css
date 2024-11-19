@@ -41,7 +41,7 @@ h2{
     font-family: pretendard, sans-serif;
     font-style: normal;
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 150%;
     letter-spacing: -0.04rem;
     word-spacing: -0.04rem;
@@ -271,4 +271,16 @@ main{
     margin: 30px 0 100px 0;
     text-align: center;
     /* box-shadow: 0 0 0 10px black inset; */
+}
+
+.line-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    position: relative;
+    /* padding-top: 200px; */
+    margin: 0;
+    border-top: solid 1px #e4e4e4;
+    text-align: center;
 }
