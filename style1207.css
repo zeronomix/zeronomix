@@ -42,6 +42,7 @@
 
 .gnb-logo img{
     width: 100%;
+    height: auto;
 }
 
 main{
@@ -148,14 +149,8 @@ main{
     margin: 40px 0px;
 }
 
-.line{
-    position: absolute;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
+.line-container img{
     width: 100%;
-    border:solid 1px #a7a7a7;
-    z-index: -1;
 }
 
 #line-text{
